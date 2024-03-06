@@ -1,0 +1,21 @@
+.form-control > div {
+  display: flex;
+  flex-flow: column;
+}
+
+.form-control label {
+  margin-bottom: 10px;
+}
+
+.form-control input {
+  height: 30px;
+  width: 200px;
+  padding: .5em;
+  margin-bottom: 15px;
+}
+
+.add-button {
+  background-color: #00fdff;
+  padding: 1em;
+  cursor: pointer
+}
